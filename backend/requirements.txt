@@ -1,0 +1,6 @@
+# Install using your existing venv from the repo root (same env as corrective-rag):
+#   pip install -r req.txt
+#
+# This file only re-exports the root lockfile so `pip install -r backend/requirements.txt`
+# from the `backend/` folder still works.
+-r ../req.txt

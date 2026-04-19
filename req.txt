@@ -1,0 +1,23 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.25.0
+gitpython>=3.1.46
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+httpx>=0.27.0
+networkx>=3.2.1
+python-dotenv>=1.0.1
+streamlit>=1.36.0
+requests>=2.32.0
+javalang>=0.13.0
+groq>=0.4.0
+# Core backend dependency added for the tool-using codebase agent (see backend.app.qa_agent.codebase_agent).
+langgraph>=1.1,<2
+pypdf
+# PyPI package names use hyphens; `pip install langchain-community` is correct.
+langchain
+langchain-community
+# CRAG API + notebook stack
+langchain-groq>=0.2.0
+langchain-text-splitters>=0.3.0
+python-multipart>=0.0.9
+rank-bm25>=0.2.2
